@@ -1,0 +1,22 @@
+{
+    "name": "prosenjitgit/wwtcpayment", //naming our package
+    "description": "A PHP-SDK for Twitter Search API", // Description about package
+    "keywords": ["twitter search", "search"], // Keywords
+    "type": "package", //Since it’s a package  we define its type package
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [{ //Your information
+        "name": "prosenjit", 
+        "email": "akash123.2008@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Wtcpayment\\" : "src/"
+        }
+    },
+    "version": "1.0.0", //Version of the package
+    "minimum-stability": "dev" //Stability
+
+}
