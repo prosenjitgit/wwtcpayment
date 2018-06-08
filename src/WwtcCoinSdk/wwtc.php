@@ -1,4 +1,5 @@
 <?php
+namespace WwtcCoinSdk;
 class wwtc{
 
     const API_URL = "https://wwtcapps.com/api/dev0.1/";

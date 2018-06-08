@@ -1,22 +1,21 @@
 {
-    "name": "prosenjitgit/wwtcpayment",
-    "description": "A PHP-SDK for wwtcpayment API", 
-    "keywords": ["wwtcpayment", "wwtc", "sdk"],
-    "type": "package", 
-    "require": {
-        "guzzlehttp/guzzle": "^6.2"
-    },
-    "license": "MIT",
-    "authors": [{ 
-        "name": "prosenjit", 
-        "email": "akash123.2008@gmail.com"
-    }],
-    "autoload": {
-        "psr-4": {
-            "Wtcpayment\\" : "src/"
+    "name": "wtc/wtcsdk",
+    "description": "A PHP-SDK for wwtcpayment API",
+    "type": "package",
+    "authors": [
+        {
+            "name": "prosenjit",
+            "email": "akash123.2008@gmail.com"
         }
-    },
-    "version": "1.0.0", 
-    "minimum-stability": "dev" 
-
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	 "php": ">=5.3.0",
+	 "guzzlehttp/guzzle": "^6.2"
+     },
+     "autoload": {
+        "psr-0": {
+            "WwtcCoinSdk": "src/"
+        }
+    }
 }
