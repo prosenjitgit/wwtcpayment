@@ -1,8 +1,7 @@
 <?php
-namespace Wtcpayment;
 class wwtc{
 
-    const API_URL = "http://wtcapps.com/api/dev0.1/";
+    const API_URL = "https://wwtcapps.com/api/dev0.1/";
     protected $client;
     protected $secret;
     protected $apikey;
@@ -26,7 +25,7 @@ class wwtc{
     protected function prepareAccessToken()
     {
         try{
-            $url = "http://wtcapps.com/api/dev0.1/auth";
+            $url = "https://wwtcapps.com/api/dev0.1/auth";
             $value = ['grant_type' => "client_credentials"
             ];
 	    
